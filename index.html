@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="null.css">
+    <link rel="stylesheet" href="animations/animate.css">
+    <title>Поздравление от Деда Мороза!</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="container">
+                <div class="main__row">
+                    <h1 class="main__title wow fadeInDown">Поздравление от Деда Мороза!</h1>
+                    <h2 class="main__subtitle wow fadeInLeft">Скажи своё пожелание!</h2>
+                    <form class="main__form">
+                        <label for="input" class="wow fadeInRight">Введите текст&colon;</label>
+                        <input class="main__input__text wow fadeInDown" type="text" id="input" name="input">
+                         <input class="main__input__button wow fadeInUp" type="submit" value="Отправить"> 
+                        </form>
+                </div>
+            </div>
+        </main>
+        
+    </div>
+    <script src="animations/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+    <zapier-interfaces-page-embed page-id='clptbglho001mlcfq1onsy375' no-background='false'  style='max-width: 900px; height: 500px;'></zapier-interfaces-page-embed>
+</body>
+</html>
